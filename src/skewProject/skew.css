@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* border:1px solid; */
+}
+
+.Skewbackround{
+    width: 70%;
+    height: 50rem;
+    background-image: linear-gradient(to bottom,rgb(227, 225, 225),rgb(242, 240, 240));
+    margin: auto;
+    margin-top: 1.2rem;
+    box-shadow: 0px -9px 100px -9px rgb(225, 225, 225);
+    border-radius: 2em;
+    padding-top: 6.5em;
+}
+
+.SkewContainer{
+    background-color: #bfbac9;
+    width: 77%;
+    height: 85%;
+    margin-left:9.7em;
+    border-bottom-left-radius: 4em;
+    border-top-right-radius: 7em;
+    border-top-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+    box-shadow: 0 0 3px 3px #efebf9;
+    transform: skew(9.94turn, -5deg) rotate(6deg);
+    
+}
+
+.SkewLayer{
+    background-color: rgb(7, 7, 7);
+    width: 98%;
+    height: 92%;
+    box-shadow: 0 2px 3px 3px #e2deeb;
+    border-radius: 4em;
+    margin-left: -1em;
+    padding-top:2em ;
+    border: 2px solid gray;
+}
+
+.Container{
+    width: 93%;
+    height: 95%;
+    margin: auto;
+    background-color: #f9f8fb;
+    border-radius: 1.5em;
+    border-left: none;
+    display: flex;
+}
+
+.Camera{
+width: 1em;
+height: 1em;
+background-color: rgb(216, 216, 217);
+z-index: 1;
+border-radius: 50%;
+position: absolute;
+margin-top: -25em;
+margin-left: 12em;
+}
+
+.CameraLens{
+    background-color: #0b070b;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: .25em;
+}
+
+.ChargeSpeaker{
+    position: absolute;
+    width: 2em;
+    height: 35em;
+    transform: skew(-26.5deg);
+    margin-top: -38.5em;
+    margin-left: 68.5em;
+    transform: skew(9.94turn, 5deg) rotate(6deg);
+}
+
+.Charger{
+    width: 40%;
+    height: 2.5em;
+    border-radius: 1.5em;
+    background-color: #3f3e3f;
+    box-shadow: inset 0 0 10px 0 #191818;
+    margin-top: 1.5em;
+    margin-left: .7em;
+}
+
+.Speaker{
+    margin-top: 4.5em;
+    width: 50%;
+    height: 10em;
+
+}
+.Speakers{
+    width: 70%;
+    height:6.5%;
+    border-radius: 50%;
+    background-color: #0b070b;
+    margin-left: 1em;
+    margin-top: .5em;
+    box-shadow: inset 0 0 10px 0 #413e3e;
+}
+
+.LeftPanel{
+    width: 15%;
+    height: 100%;
+    background-color: #edeeff;
+    border-bottom-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+}
+.LeftPanel p{
+    font-family: sans-serif;
+    margin-top: 2em;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 1.6em;
+}
+
+.SideNav{
+    width: 90%;
+    height: 80%;
+    margin-left: 1em;
+}
+
+.SNtop{
+    width: 80%;
+    height: 30%;
+    margin-top: 3em;
+
+}
+
+.SNbottom{
+    width: 80%;
+    height: 13%;
+    margin-top: 10px;
+    margin-top: 14em;
+}
+.sntChild{
+    width: 95%;
+    height: 25%;
+    margin: auto;
+    text-align: start;
+    color: #4d4c4d;
+    word-spacing: 1em;
+}
+
+.HomeHover{
+    color: #8639f8;
+}
+
+.snbChild{
+    width: 90%;
+    height: 50%;
+    color: #4d4c4d;
+    text-align: start;
+    word-spacing: 1em;
+}
+.MiddlePanel{
+    width: 58%;
+    height: 100%;
+}
+.MiddleChild{
+    width:93%;
+    height: 95%;
+    margin: auto;
+    margin-top: 1em;
+}
+.MiddleChildTop{
+    width:100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.mctHeader{
+    display: inline-block;
+    margin: 1em;
+
+}
+.mctHeader h4{
+    font-size: large;
+}
+
+.mctHeader h6{
+    font-size: x-small;
+    margin-left: -2em;
+    margin-top: .5em;
+}
+.mctHeader i{
+    color: rgb(221, 203, 3);
+}
+
+.mctSearch{
+    width: 35%;
+    height: 50%;
+    border: .7px solid gray;
+    display: flex;
+    justify-content: space-around;
+    color: #4d4c4d;
+    border-radius: .4em;
+    margin: 1em;
+}
+
+.mctSearch .Search{
+    font-size: x-small;
+    font-family: sans-serif;
+    margin-top: .6em;
+}
+
+.mctSearch .SearchIcon{
+    font-size: bold;
+    margin-top: .2em;
+}
+
+.MiddleChildMiddle{
+    width: 100%;
+    height: 23%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mcmChild{
+    width: 22%;
+    height: 90%;
+    /* background-color: #8639f8; */
+    border-radius: .5em;
+    margin-top: .4em;
+    border: .5px solid rgb(171, 169, 169,.3);
+}
+.mcmIcon{
+    font-size:xx-large;
+    margin-top: .6em;
+}
+
+.mcmChild h6{
+    margin-top: .7em;
+    font-weight: bold;
+}
+
+.mcmChild p{
+    margin-top: .5em;
+    font-size: x-small;
+}
+.MiddleChildBottom{
+    width: 100%;
+    height: 39%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    border:.4px solid rgb(184, 183, 183,.3);
+    background-image: linear-gradient(to bottom,white,rgb(240, 238, 238));
+}
+
+.MiddleChildFooter{
+        width: 100%;
+        height: 21%;
+        margin-top: .5em;
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+.Schedule{
+    width: 31%;
+    height: 75%;
+    margin-top: 1.5em;
+    border-radius: .5em;
+    border:1px solid rgb(187, 186, 186,.3);
+}
+.schedText{
+    position: absolute;
+    font-weight: bold;
+}
+
+.sHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SheadingB{
+    width:40%;
+    height: 17%;
+    background-color: #f2e9fc;
+    font-size: x-small;
+    margin: .9em;
+    border-radius: .5em;
+    border:.5px solid rgb(237, 215, 255);
+    font-family: sans-serif;
+    color: #9c5cfc;
+    letter-spacing: .1em;
+}
+.SheadingR{
+    width:37%;
+    height: 17%;
+    background-color: #fce5ef;
+    font-size: x-small;
+    margin: .9em;
+    border-radius: .5em;
+    border:.5px solid rgb(252, 193, 210);
+    font-family: sans-serif;
+    color: #f72e63;
+    letter-spacing: .1em;
+}
+.SheadingG{
+    width:37%;
+    height: 17%;
+    background-color: #e5fce5;
+    font-size: x-small;
+    margin: .9em;
+    border-radius: .5em;
+    border:.5px solid rgb(202, 252, 193);
+    font-family: sans-serif;
+    color: #02b22b;
+    letter-spacing: .1em;
+}
+.SIcon{
+    margin: .5em;
+    color: #757475;
+}
+.Schedule h6{
+    font-family: sans-serif;
+    text-align: start;
+    margin-left: 1em;
+}
+.Schedule p{
+    font-family: sans-serif;
+    text-align: start;
+    font-size: x-small;
+    margin-left: 1em;
+    margin-top: .7em;
+}
+.RightPanel{
+    width: 27%;
+    height: 100%;
+    background-color: #edeeff;
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+
+}
+
+.RPtop{
+    width: 95%;
+    height: 31%;
+    margin: auto;
+}
+.RPtopchild{
+    width: 95%;
+    height: 25%;
+    margin: auto;
+    display: flex;
+    padding-top: 1em;
+}
+
+.rptChild1{
+ text-align: start;
+ font-size: 2em;
+}
+.rptChild2 h4{
+    font-size: 1em;
+    margin-left: 1em;
+}
+.rptChild2 p{
+    font-size: .7em;
+    margin-left: -1.5em;
+}
+
+.Webinar{
+    font-size: small;
+    color: #8639f8;
+    text-align: start;
+    margin-left: .9em;
+    font-family: sans-serif;
+    margin-top: .5em;
+}
+.RPtop h2{
+    text-align: start;
+    margin-top: .5em;
+    margin-left: .5em;
+}
+.RPmiddle{
+    width: 95%;
+    height: 30%;
+    margin: auto;
+}
+
+.rpmTop{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.rpmt1{
+    width: 70%;
+    height: 100%;
+    font-size: .9em;
+    text-align: start;
+    margin-left: 1em;
+}
+.rpmt2{
+    width: 30%;
+    height: 100%;
+    border-radius: .7em;
+    color: #8639f8;
+    font-size: 1.5em;
+    text-align: end;
+    margin-right: 1em;
+}
+.rpmMiddle{
+    width: 100%;
+    height: 35%;
+    margin-top: .5em;
+    display: flex;
+    margin-top: 1em;
+}
+
+.rpmmChild{
+    width: 25%;
+    height: 80%;
+    border-radius: 50%;
+    color: #393739;
+
+}
+.RC1{
+    margin-left: 1em;
+    font-size: 2em;
+}
+.RC2,.RC3,.RC4{
+    margin-left: -1em;
+    font-size: 2em;
+}
+
+.RC4{
+    width: 15%;
+    height: 29%;
+    padding-bottom: .5em;
+    padding-top:.6em;
+    padding-bottom:.6em;
+    margin-top: .2em;
+    color: #8639f8;
+    text-align: center;
+    font-size: small;
+    margin-left: -1.5em;
+    background-color: white;
+}
+.rpmBottom h6{
+    margin-left: -1em;
+}
+div .rpmBottom .h6{
+    color: #3c3b3c;
+}
+.rpmbChild{
+    width: 75%;
+    height: 12%;
+    background-color: rgb(253, 99, 148);
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: .3em;
+    border-radius: .4em;
+    margin-top: .5em;
+}
+
+.RPbottom{
+    width: 90%;
+    height: 35%;
+    margin: auto;
+}
+
+.rpbChild{
+    width: 100%;
+    height: 67%;
+    margin: auto;
+    background-color: #8372f3;
+    border-radius: 1em;
+    box-shadow: 0 0 2px 2px rgb(116, 52, 254);
+    text-align: start;
+    color: #f8f8fe;
+    padding-top: 3em;
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+.h4{
+    margin-left: .5em;
+
+}
+.h6{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.p{
+    font-size: .7em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.StartBtn{
+    width: 39%;
+    height: 12%;
+    background-color:white;
+    color:#8372f3 ;
+    text-align: center;
+    padding-top: .2em;
+    border-radius: .3em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: .7em;
+}
+
+.SnowMan{
+    position: absolute;
+    font-size: 7.5em;
+    margin-top: -1.1em;
+    margin-left: .8em;
+    color: #e3e6fe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
